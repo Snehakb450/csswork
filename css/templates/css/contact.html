@@ -1,0 +1,46 @@
+{% extends 'css/master.html' %}
+{% load static %}
+
+{% block header %}
+<link rel="stylesheet" href="{% static 'style/contact.css' %}">
+{%endblock %}
+
+
+{% block content %}
+
+<br>
+<table border="1" cellpadding="3" align="center">
+    <tr>
+        <th colspan="2">Contact us</th>
+    </tr>
+    <tr>
+        <td>Name</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td><input type="radio" name="" id="gender">Male
+        <input type="radio" name="" id="gender">Female</td>
+    </tr>
+    <tr>
+        <td>Date of birth</td>
+        <td><input type="date" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>Mobile</td>
+        <td><input type="number" name="" id="mobile"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td><input type="email" name="" id="email"></td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="right"><a href="#" class="btn">Submit</a></td>
+    </tr>
+
+</table>
+{% endblock %}

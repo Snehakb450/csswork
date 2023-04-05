@@ -1,0 +1,26 @@
+{% extends 'css/master.html' %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'style/courses.css' %}">
+
+
+
+{% block content %}
+
+<div id="paradiv">
+    <h2>Explore our internship program</h2>
+    <p id="para" style="font-size: large;">baabtra.com offers you courses and training programs that will enable you to master programming in depth. Enroll and start learning with the experts in the industry.
+        We <br> offer PHP Training with Laravel Framework, Python training with Django Framework, Angular Training and Node.js Training.
+
+    </p><br>
+
+</div>
+ <div class="grid-container1">
+    <div class="item" style="width: 280px;">
+        <img src="{% static 'images/python.jpg' %}" alt="" class="course_image"><h3 align=center>Python Full stack developement</h3></div>
+    <div class="item" style="width: 280px;"><img src="{% static 'images/php.png' %}" alt="" class="course_image"><h3 align=center>PHP Full Stack Developement</h3></div>
+    <div class="item" style="width: 280px;"><img src="{% static 'images/angular.png' %}" alt="" class="course_image"><h3 align=center>Angular- Front End developement</h3></div>
+
+ </div>
+
+{% endblock %}

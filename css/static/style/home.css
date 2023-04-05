@@ -1,0 +1,21 @@
+.content_head{
+    color: white;
+    background-color: #003651;
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+    border-radius: 3px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    gap: 10px;
+    
+}
+  
+
+.grid-item{
+    padding: 10px;
+    color: rgb(39,38,38);
+}
+    

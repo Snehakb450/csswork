@@ -1,0 +1,42 @@
+{% extends 'css/master.html' %}
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'style/home.css' %}">
+
+
+
+
+{% block content %}
+<div>
+    <img src="{% static 'images/banner.jpg' %}" alt="" width="100%">
+</div>
+
+<div class="content_head">
+    <h1 align="center">GETTING A SOFTWARE JOB IS SO EASY WITH OUR <br>INTERNSHIP PROGRAM <br></h1>
+   <h1 style="color: #003651;">sdfghxcvbnnm,n</h1>
+</div><br>
+
+<div class="grid-container">
+    <div class="grid-item"><h3 align="center">Our office</h3><img src="{% static 'images/office.jpg' %}" alt="" width="250px"></div>
+    <div class="grid-item">
+        <h3 align="center">Best python training in Calicut</h3>
+        <p>python is one of the hot programming languages nowadays.
+            Many freshers sre learning this software developement technology and
+            are getting placed as Python developer in software companies. Baabtra has the 
+            highest number of candidates got trained in Python in the last year.
+            We train you to develop a web application using python with Django framework and Mysql database.
+            Python training course for freshers to make them good programes through quality training in Python and Django framework in Calicut.
+
+        </p>
+        
+    </div>
+    <div class="grid-item">
+        <h3 align="center">Life@baabtra</h3>
+        <img src="{% static 'images/life.jpg' %}" alt="">
+    </div>
+
+</div>
+
+
+
+{% endblock %}

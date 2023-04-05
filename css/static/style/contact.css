@@ -1,0 +1,28 @@
+td{
+    width: 200px;
+    height: 30px;
+}
+
+input[type='text']{
+    width: 250px;
+    height: 25px;
+}
+.btn{
+    color: #ffffff;
+    border: 9px solid #003651;
+    border-radius: 100px;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #003651;
+
+}
+input[type="Email"]{
+    width: 250px;
+    height: 25px;
+}
+
+
+
